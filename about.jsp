@@ -33,3 +33,25 @@
         }
     });
 
+            
+    // Get the navbar element
+    var navbar = document.querySelector('.navbar');
+
+    // Get the text elements inside the navbar
+    var navLinks = navbar.querySelectorAll('.nav-link');
+
+    // Function to toggle the "scrolled" class on the navbar and change text color
+    function toggleNavbarColor() {
+        if (window.scrollY > 0) {
+            navbar.classList.add('scrolled');
+            navLinks.forEach(function(link) {
+                link.style.color = '#000000'; // Change to the desired color
+            });
+        } else {
+            navbar.classList.remove('scrolled');
+            navLinks.forEach(function(link) {
+                link.style.color = '#ffffff'; // Change to the desired color
+            });
+        }
+    }
+
