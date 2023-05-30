@@ -197,3 +197,36 @@
     background-color: #ffffff; /* Change this to the desired background color when scrolled */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add any additional styling for the scrolled navbar */
 }
+
+
+/*** Header ***/
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    z-index: 1;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 15%;
+  }
+ 
+  h1.display-3 {
+    color: #FFFFFF;
+  }
+  .text-body {
+    color: #FFFFFF;
+  }
+  .breadcrumb-item
+
+  .text-secondary {
+    font-weight: bold;
+  }
+  
+  
